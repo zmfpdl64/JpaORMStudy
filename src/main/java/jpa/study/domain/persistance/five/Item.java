@@ -1,4 +1,4 @@
-package jpa.study.domain.persistance;
+package jpa.study.domain.persistance.five;
 
 
 import lombok.Data;
