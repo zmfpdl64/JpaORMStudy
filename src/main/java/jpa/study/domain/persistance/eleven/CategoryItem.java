@@ -1,2 +1,4 @@
-package jpa.study.domain.persistance.eleven;public class CategoryItem {
+package jpa.study.domain.persistance.eleven;
+
+public class CategoryItem {
 }
