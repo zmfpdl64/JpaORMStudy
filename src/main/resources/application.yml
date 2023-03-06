@@ -7,3 +7,12 @@ spring:
     hibernate:
       ddl-auto: create
     show-sql: true
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  datasource.url: jdbc:h2:~/test3
+  datasource.username: sa
+  datasource.password:

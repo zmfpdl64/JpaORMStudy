@@ -14,11 +14,6 @@ import javax.persistence.EntityManager;
 @Controller
 @Slf4j
 public class BasicController {
-    private EntityManager em;
-
-    public BasicController(@Autowired EntityManager em) {
-        this.em = em;
-    }
 
     @GetMapping("/")
     public String basic() {
