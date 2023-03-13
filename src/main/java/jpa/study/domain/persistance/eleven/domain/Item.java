@@ -1,5 +1,6 @@
 package jpa.study.domain.persistance.eleven.domain;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
