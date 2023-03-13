@@ -12,7 +12,7 @@ public class MainController {
 
     private MemberService sut;
 
-    public MainController(MemberService sut) {
+    public MainController(@Autowired MemberService sut) {
         this.sut = sut;
     }
 
