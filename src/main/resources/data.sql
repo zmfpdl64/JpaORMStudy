@@ -1,2 +1,5 @@
 use test;
-drop table member, orders, category
+delete item
+from item
+where item_id > 3;
+
