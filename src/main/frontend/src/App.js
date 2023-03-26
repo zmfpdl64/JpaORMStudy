@@ -1,13 +1,10 @@
 import React, {useEffect, useState} from 'react';
-// import { Route} from "react-router-dom";
 // import axios from 'axios';
 import Header from './components/Header';
 import Items from './components/Items';
 import Navi from './components/NavigationBar';
-// import Main from './components/Main';
-// import Product from './components/Product';
-
-
+// import { Provider, useSelector, useDispatch } from 'react-redux';
+// import { reloadItems } from './reducers/listSlice';
 function App(props){
     let [mode, setMode] = useState(0);
     let [items,setItems] = useState([]);
@@ -19,6 +16,14 @@ function App(props){
         setItems(null);
         document.title = "기본페이지";
     }, [mode])
+    // const dispatch = useDispatch();
+    // const item = useSelector(function(state) {
+    //     if(state.mode === 1){
+    //         dispatch(reloadItems())
+    //     }else{
+    //         dispatch
+    //     }
+    // })
     return (
       <div>
           <Navi> </Navi>

@@ -45,14 +45,13 @@ const Items = (props) => {
                     alert("현재 상품이 존재 하지 않습니다.")
                     console.log("현재 상품이 존재 하지 않습니다.")
                 })
-    }, [items]) //
+    }, []) //
     return (
         <table>
             {items}
         </table>
     )
 }
-
 
 
 export default Items;
