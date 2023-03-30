@@ -1,11 +1,15 @@
 package jpa.study.domain.persistance.eleven.domain;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 import org.aspectj.weaver.ast.Or;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
 @Table(name = "order_item")
 @Entity
 public class OrderItem {
